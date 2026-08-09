@@ -8,7 +8,7 @@
 
 ## About
 
-I build scripts, resources and tooling for **FiveM** servers — gameplay systems in Lua,
+I build scripts, resources and tooling for **FiveM** servers gameplay systems in Lua,
 NUI interfaces in HTML/CSS/JavaScript, and small utilities that make server work less painful.
 
 Most of what I publish here is free and plug-and-play: standalone resources you can drop into

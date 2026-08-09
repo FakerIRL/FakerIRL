@@ -17,7 +17,13 @@ readable after the first week and doesn't quietly eat server performance.
 
 Outside of FiveM I write Python for anything that needs automating.
 
-<img src="./stack.svg" alt="Tech stack" width="100%">
+## 💻 Languages
+
+<img src="https://skillicons.dev/icons?i=lua,js,html,css,py" alt="Lua, JavaScript, HTML, CSS, Python">
+
+## ⚙️ Tools & Tech
+
+<img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode" alt="Node.js, Git, GitHub, VS Code">
 
 ## Contact
 

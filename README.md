@@ -1,4 +1,4 @@
-<img src="./banner.svg" alt="FakerIRL — FiveM Developer" width="100%">
+<img src="./banner.gif" alt="FakerIRL — FiveM Developer" width="100%">
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FakerIRL&label=Profile%20views&color=4f8cff&style=flat-square" alt="Profile views">

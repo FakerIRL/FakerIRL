@@ -1,94 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="FakerIRL — FiveM Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="FakerIRL — FiveM Developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="55%" stop-color="#0f1622"/>
       <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
-
-    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#4f8cff"/>
       <stop offset="100%" stop-color="#7b5cff"/>
     </linearGradient>
-
-    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.55"/>
-      <stop offset="45%" stop-color="#7b5cff" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#7b5cff" stop-opacity="0"/>
-    </linearGradient>
-
-    <radialGradient id="glow" cx="0.18" cy="0.85" r="0.75">
-      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.20"/>
-      <stop offset="60%" stop-color="#4f8cff" stop-opacity="0.05"/>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#4f8cff" stop-opacity="0.13"/>
       <stop offset="100%" stop-color="#4f8cff" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="glow2" cx="0.88" cy="0.15" r="0.6">
-      <stop offset="0%" stop-color="#7b5cff" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#7b5cff" stop-opacity="0"/>
-    </radialGradient>
-
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8b949e" stroke-opacity="0.055" stroke-width="1"/>
-    </pattern>
-
-    <linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="gridMask">
-      <rect width="1200" height="300" fill="url(#gridFade)"/>
-    </mask>
   </defs>
 
-  <!-- base -->
-  <rect width="1200" height="300" rx="10" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="10" fill="url(#grid)" mask="url(#gridMask)"/>
-  <rect width="1200" height="300" rx="10" fill="url(#glow)"/>
-  <rect width="1200" height="300" rx="10" fill="url(#glow2)"/>
+  <rect width="1200" height="220" rx="10" fill="url(#bg)"/>
+  <rect width="1200" height="220" rx="10" fill="url(#glow)"/>
 
-  <!-- left accent bar -->
-  <rect x="64" y="86" width="4" height="128" rx="2" fill="url(#accent)"/>
+  <text x="600" y="106" text-anchor="middle"
+        font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif"
+        font-size="64" font-weight="700" fill="#e6edf3" letter-spacing="-1">FakerIRL</text>
 
-  <!-- eyebrow -->
-  <text x="96" y="103" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
-        font-size="15" letter-spacing="4.5" fill="#4f8cff" font-weight="600">FIVEM DEVELOPER</text>
+  <text x="600" y="145" text-anchor="middle"
+        font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="16" letter-spacing="6" fill="#8b949e">FIVEM DEVELOPER</text>
 
-  <!-- name -->
-  <text x="94" y="171" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif"
-        font-size="66" font-weight="700" fill="#e6edf3" letter-spacing="-1.5">FakerIRL</text>
+  <rect x="555" y="170" width="90" height="3" rx="1.5" fill="url(#accent)"/>
 
-  <!-- tagline -->
-  <text x="96" y="209" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif"
-        font-size="19" fill="#8b949e">Scripts, resources and tooling for FiveM servers.</text>
-
-  <!-- hairline -->
-  <rect x="96" y="240" width="620" height="1" fill="url(#hairline)"/>
-
-  <!-- meta row -->
-  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#6e7681">
-    <circle cx="102" cy="266" r="3.5" fill="#3fb950"/>
-    <text x="116" y="271">open to collaboration</text>
-    <text x="292" y="271" fill="#30363d">|</text>
-    <text x="312" y="271">Lua · JavaScript · Python</text>
-  </g>
-
-  <!-- decorative bracket motif, right side -->
-  <g opacity="0.6">
-    <path d="M930 96 L898 150 L930 204" fill="none" stroke="#4f8cff" stroke-opacity="0.42" stroke-width="3.5"
-          stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M990 96 L1022 150 L990 204" fill="none" stroke="#7b5cff" stroke-opacity="0.42" stroke-width="3.5"
-          stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M975 92 L945 208" fill="none" stroke="#8b949e" stroke-opacity="0.28" stroke-width="3.5" stroke-linecap="round"/>
-  </g>
-
-  <!-- corner ticks -->
-  <g stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.9">
-    <path d="M1152 40 L1160 40 L1160 48"/>
-    <path d="M1160 252 L1160 260 L1152 260"/>
-  </g>
-
-  <!-- border -->
-  <rect x="0.5" y="0.5" width="1199" height="299" rx="10" fill="none" stroke="#21262d"/>
+  <rect x="0.5" y="0.5" width="1199" height="219" rx="10" fill="none" stroke="#21262d"/>
 </svg>
